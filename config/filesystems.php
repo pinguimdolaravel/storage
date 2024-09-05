@@ -28,6 +28,9 @@ return [
     |
     */
 
+    'cloud'=> 'cloud',
+
+
     'disks' => [
 
         'local' => [

@@ -26,11 +26,7 @@ Route::get('download', function() {
 
     echo base64_encode($storage);
 
-    dd('oi');
-
     return response()->download($file, 'jeremias.png');
-
-
 
 });
 
